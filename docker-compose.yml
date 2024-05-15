@@ -1,0 +1,6 @@
+services:
+ web_challenge:
+   build: .
+   ports:
+    - "8080:80"
+    # - "445:445"
